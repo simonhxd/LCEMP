@@ -667,7 +667,7 @@ void Renderer::Present()
         m_bShouldScreenGrabNextFrame = false;
     }
 
-    m_pSwapChain->Present(1, 0);
+    m_pSwapChain->Present(0, 0);
     ++presentCount;
 }
 
